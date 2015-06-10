@@ -32,7 +32,7 @@
 
 	        var productUrl = "/api/products"
 
-	        $httpBackend.whenGet(productUrl).repspond(products);
+	        $httpBackend.whenGET(productUrl).respond(products);
 	});
 	
 }())
